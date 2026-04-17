@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../KeeperPRO.GeneralDepartment/KeeperPRO.GeneralDepartment/KeeperPRO.GeneralDepartment.csproj" />
+  <Project Path="KeeperPRO/KeeperPRO.csproj" />
+</Solution>
