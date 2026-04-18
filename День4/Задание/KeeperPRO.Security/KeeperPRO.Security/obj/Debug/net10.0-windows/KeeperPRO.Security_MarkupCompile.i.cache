@@ -1,0 +1,20 @@
+﻿KeeperPRO.Security
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\ПМ.011-Учебная практика\День4\Задание\KeeperPRO.Security\KeeperPRO.Security\obj\Debug\net10.0-windows\
+KeeperPRO.Security
+none
+false
+TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\ПМ.011-Учебная практика\День4\Задание\KeeperPRO.Security\KeeperPRO.Security\App.xaml
+4-1457144813
+
+12633184524
+209-1992729472
+MainWindow.xaml;Views\AccessWindow.xaml;Views\SecurityLoginWindow.xaml;Views\SecurityMainWindow.xaml;
+
+False
+
