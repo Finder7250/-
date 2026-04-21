@@ -1,0 +1,32 @@
+﻿<Window x:Class="KeeperPRO.Department.Views.AddToBlacklistDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавление в черный список" Height="450" Width="550"
+        WindowStartupLocation="CenterOwner" WindowStyle="ToolWindow">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="🚫 Добавление посетителя в черный список" FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <TextBlock Grid.Row="1" Text="Посетитель:" FontWeight="Bold" Margin="0,5"/>
+        <TextBlock Grid.Row="2" x:Name="txtVisitorName" Margin="0,0,0,15" FontSize="14" FontWeight="Bold" Foreground="#FF2B5797"/>
+
+        <TextBlock Grid.Row="3" Text="Причина добавления (до 5000 символов):" Margin="0,5,0,5"/>
+        <TextBox x:Name="txtReason" Grid.Row="4" Height="180" TextWrapping="Wrap" AcceptsReturn="True" 
+                 VerticalScrollBarVisibility="Auto" Margin="0,0,0,15"/>
+
+        <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button x:Name="btnOk" Content="✅ Добавить" Width="120" Height="35" Margin="0,0,10,0" 
+                    Click="btnOk_Click" Background="#FF4CAF50" Foreground="White"/>
+            <Button x:Name="btnCancel" Content="❌ Отмена" Width="100" Height="35" Click="btnCancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
